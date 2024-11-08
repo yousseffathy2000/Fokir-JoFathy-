@@ -1,0 +1,92 @@
+
+
+/* START Header Section */
+
+@media (max-width:780px)
+{
+    header .container .header-top .navbar-toggle {
+        width: 50px;
+        background-color: red;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: aqua;
+        margin-top: 18px;
+    }
+
+    header .container .header-top ul{
+        display: none;
+    }
+
+}
+
+/* END Header Section */
+
+
+/* START About Section */
+@media (max-width:1200px)
+{
+    #about .container .about-area .about-area-left-border {
+        top: 46px;
+        left: 75px;
+    }
+}
+
+@media (max-width:991px)
+{
+    #about .container .about-area .about-area-left-border {
+        display: none;
+        margin: 0;
+    }
+
+    #about .container .about-area .about-area-left-image{
+        width: 100%;
+    }
+}
+
+@media (max-width:990px)
+{
+    #about .container .about-area .about-area-left, #about .container .about-area .about-area-right {
+        width: 46%;
+    }
+    #about .container .about-area .about-area-right .about-area-right-desc h2{
+        margin-bottom: 15px;
+    }
+    #about .container .about-area .about-area-right .about-area-right-desc p{
+        padding-bottom: 5px;
+        margin-bottom: 0;
+    }
+    #about .container .about-area .about-area-right .about-area-right-profile{
+        margin-left: -40px;
+    }
+    
+    #about .container .about-area .about-area-right .about-area-right-profile ul{
+        display: inline-block;
+        margin-right: 0;
+    }
+
+    #about .container .about-area .about-area-right .about-area-right-profile ul li{
+        font-size: 14px;
+    }
+    
+    .about-area-right-profile-left{
+        float: left;
+    }
+
+    .about-area-right-profile-right{
+        float: right;
+    }
+
+    #about .container .about-area .about-area-left-image{
+        margin-top: 55px;
+    }
+    #about .container .about-area .about-area-right .about-area-right-buttons{
+        margin-bottom: 13px;
+        margin-top: -10px;
+    }
+}
+/* END About Section */
+
+
+
